@@ -1,0 +1,25 @@
+.bi{
+    font-size: 70px;
+
+}
+.card{
+    margin: 5px;
+}
+.card:hover{
+    // font-size: xx-large;
+    // transition: 1s;
+    // zoom: 100%;
+    
+    transition-duration: 1ms;
+
+    cursor: pointer;
+    background-color: rgb(227, 229, 234);
+    // color: white;
+    
+}
+.btn{
+    margin: 2px;
+}
+.container{
+    margin-top: 5%;
+}
