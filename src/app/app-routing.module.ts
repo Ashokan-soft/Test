@@ -8,12 +8,12 @@ import { PasswordComponent } from './password/password.component';
 import { SecurityComponent } from './security/security.component';
 
 const routes: Routes = [
-  {path:'Component',component:MainComponent},
-  {path:'component',component:AccountComponent},
-  {path:'component',component:ApplicationComponent},
-  {path:'component',component:NotificationComponent},
-  {path:'component',component:PasswordComponent},
-  {path:'component',component:SecurityComponent}
+  {path:'main',component:MainComponent},
+  {path:'account',component:AccountComponent},
+  {path:'application',component:ApplicationComponent},
+  {path:'notification',component:NotificationComponent},
+  {path:'password',component:PasswordComponent},
+  {path:'security',component:SecurityComponent}
 ];
 
 @NgModule({
