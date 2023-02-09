@@ -1,3 +1,26 @@
 .container{
     margin-top: 10%;
 }
+a{
+    // color:none;
+    font-size: 20px;
+}
+a:hover
+{
+    color: green;
+    background-color: rgb(213, 225, 213);
+    border-radius: 30px;
+
+    // opacity: 70%;
+    rotate: 45deg;
+    // -moz-animation-direction: reverse;
+}
+.name-h{
+    border: 1px;
+    border-right:1px solid rgb(138, 134, 134);
+
+}
+.top-m:hover,.name-h:hover
+{
+    background-color: rgb(210, 218, 220);
+}
