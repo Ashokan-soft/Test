@@ -7,6 +7,9 @@ import { EMPTY } from 'rxjs';
   styleUrls: ['./account.component.scss']
 })
 export class AccountComponent {
+  
+  push(){}
+
 
   // variables 
   FirstName: any
