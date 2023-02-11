@@ -6,9 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
+  show: any;
 
 
+  ChangeButtoncolor(value: any) {
+    this.show = value
+    //alert(this.show)
+  }
 
-  
 
 }

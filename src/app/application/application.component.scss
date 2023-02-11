@@ -12,3 +12,15 @@
 .container{
     margin-top: 5%;
 }
+.card:hover{
+    // font-size: xx-large;
+    // transition: 1s;
+    // zoom: 100%;
+    
+    transition-duration: 1ms;
+
+    cursor: pointer;
+    background-color: rgb(227, 229, 234);
+    // color: white;
+    
+}
