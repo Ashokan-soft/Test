@@ -9,6 +9,8 @@ import { PasswordComponent } from './password/password.component';
 import { SecurityComponent } from './security/security.component';
 import { ApplicationComponent } from './application/application.component';
 import { NotificationComponent } from './notification/notification.component';
+// import { NgForm } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,11 @@ import { NotificationComponent } from './notification/notification.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // NgModule,
+    // NgForm,
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

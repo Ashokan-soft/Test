@@ -10,8 +10,9 @@ export class MainComponent {
 
 
   ChangeButtoncolor(value: any) {
+    
     this.show = value
-    //alert(this.show)
+    // alert(this.show)
   }
 
 
